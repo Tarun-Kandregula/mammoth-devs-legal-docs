@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Word Fantasy</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #DAA520;
+            --bg: #121212;
+            --surface: #1E1E1E;
+            --text: #FFFFFF;
+            --text-secondary: rgba(255, 255, 255, 0.7);
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            margin: 0;
+            padding: 40px 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: var(--surface);
+            padding: 40px;
+            border-radius: 24px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            border: 1px solid rgba(255, 215, 0, 0.1);
+        }
+        h1 {
+            color: var(--primary);
+            text-transform: uppercase;
+            font-weight: 800;
+            letter-spacing: 2px;
+            text-align: center;
+            margin-bottom: 40px;
+            border-bottom: 2px solid var(--primary);
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: var(--primary);
+            font-size: 1.25rem;
+            margin-top: 30px;
+        }
+        p, li {
+            color: var(--text-secondary);
+        }
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+        }
+        a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Privacy Policy</h1>
+        <p><strong>Last updated: March 19, 2026</strong></p>
+        
+        <p>Mammothdevs ("we", "us", or "our") operates Word Fantasy. This page informs you of our policies regarding the collection, use and disclosure of Personal Information we receive from users of the App.</p>
+
+        <h2>1. Information Collection and Use</h2>
+        <p>We do not collect any personal identifiable information (PII) like your name, email address, or phone number through the game itself. Game progress, coins, and settings are stored locally on your device.</p>
+
+        <h2>2. Data Storage</h2>
+        <p>All your game data is stored on your device using Android DataStore. We do not transmit this data to our servers.</p>
+
+        <h2>3. Advertisements and Analytics</h2>
+        <p>We may use third-party services like Google AdMob or Firebase Analytics which may collect information used to identify you and provide tailored ads or improve game performance.</p>
+
+        <h2>4. Contact Us</h2>
+        <p>If you have any questions about this Privacy Policy, please contact us at <a href="mailto:mammothdevs@gmail.com">mammothdevs@gmail.com</a>.</p>
+
+        <div class="footer">
+            <p>&copy; 2026 Mammothdevs. All rights reserved.</p>
+            <p><a href="terms.html">Terms and Conditions</a></p>
+        </div>
+    </div>
+</body>
+</html>
